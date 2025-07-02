@@ -218,3 +218,24 @@
 }
 
 /* */
+
+.content-main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    align-content: center;
+    place-content: center;
+    margin-top: 80px;
+    gap: 80px;
+}
+
+.video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.text-top {
+    text-align: center;
+    margin-top: 170px;
+}

@@ -9,7 +9,9 @@
     <meta property="og:url" content="https://modo-email.netlify.app">
     <meta property="og:image" content="./img/dark.svg">
     <meta property="og:description" content="The best way to reach humans instead of spam folders.
-    Deliver transactional and marketing emails at scale."> 
+    Deliver transactional and marketing emails at scale.">
+    <meta name="description" content="The best way to reach humans instead of spam folders.
+    Deliver transactional and marketing emails at scale.">
     <title>Email</title>
     <link rel="shortcut icon" href="./img/dark.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
@@ -27,7 +29,7 @@
                 <span class="pointer text-color-gray">Customer</span>
                 <span class="pointer text-color-gray">Resources</span>
                 <span class="pointer text-color-gray">Docs</span>
-                <span class="main">
+                <div class="main">
                     <div class="main__theme">
 
                         <figure class="main__light">
@@ -40,12 +42,12 @@
 
 
                     <div class="main__switcher">
-                        <input type="checkbox" name="" id="" class="main__check">
+                        <input type="checkbox" class="main__check">
                         <div class="main__option"></div>
                     </div>
 
 
-                </span>
+                </div>
             </div>
 
             <div class="thirdNav">
@@ -67,8 +69,7 @@
 
     <section class="container">
         <article>
-            <div class="content-main"
-                style="display: flex;  flex-wrap: wrap-reverse; align-items: center; align-content: center; place-content: center; margin-top: 80px; gap: 80px;">
+            <div class="content-main">
                 <section>
                     <div>
                         <button class="btn-info pointer">New Schedule API</button>
@@ -97,15 +98,14 @@
 
 
                 <section>
-                    <video src="./assets/Cube.mp4" loop autoplay muted
-                        style="width: 100%; height: 300px; object-fit: cover;"></video>
+                    <video class="video" src="./assets/Cube.mp4" loop autoplay muted ></video>
                 </section>
 
 
 
             </div>
             <section>
-                <div style="text-align: center; margin-top: 170px;" class="text-color-gray">Backed by Y Combinator</div>
+                <div  class="text-color-gray text-top">Backed by Y Combinator</div>
 
             </section>
 
