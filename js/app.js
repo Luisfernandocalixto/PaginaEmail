@@ -2,7 +2,7 @@ import moonSwitch from '../components/moonSwitch .js';
 import sunSwitch from '../components/sunSwitch.js';
 
 document.addEventListener("DOMContentLoaded", function () {
-
+//config theme in page
 const storageTheme = localStorage.getItem('theme');
 const systemColorSheme = window.matchMedia('(prefers-color-sheme:dark)').matches ? 'dark' : 'light';
 
