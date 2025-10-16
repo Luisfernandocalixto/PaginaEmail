@@ -4,9 +4,9 @@ import sunSwitch from '../components/sunSwitch.js';
 document.addEventListener("DOMContentLoaded", function () {
 //config theme in page
 const storageTheme = localStorage.getItem('theme');
-const systemColorSheme = window.matchMedia('(prefers-color-sheme:dark)').matches ? 'dark' : 'light';
+const systemColorScheme = window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
 
-const newTheme = storageTheme ?? systemColorSheme;
+const newTheme = storageTheme ?? systemColorScheme;
 document.documentElement.setAttribute('data-theme', newTheme);
 
 document.querySelector('.main__dark').innerHTML = moonSwitch;
